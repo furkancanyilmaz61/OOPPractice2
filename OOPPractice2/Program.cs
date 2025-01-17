@@ -2,12 +2,12 @@
 {
     static void Main(string[] args)
     {
-        // Default constructor ile nesne oluşturma
-        Bebek bebek1 = new Bebek();
-        Console.WriteLine($"Ad: {bebek1.Ad}, Soyad: {bebek1.Soyad}, Doğum Tarihi: {bebek1.DogumTarihi}");
+        // Default constructor 
+        Baby baby1 = new Baby();
+        Console.WriteLine($"Name: {bebek1.Name}, Surname: {baby1.Surname}, BirthDate: {baby1.DateBirthTime}");
 
-        // Parametreli constructor ile nesne oluşturma
-        Bebek bebek2 = new Bebek("Furkancan", "Yilmaz");
-        Console.WriteLine($"Ad: {bebek2.Ad}, Soyad: {bebek2.Soyad}, Doğum Tarihi: {bebek2.DogumTarihi}");
+        // Parametres constructor
+        Baby bebek2 = new Baby("Furkancan", "Yilmaz");
+        Console.WriteLine($"Name: {bebek2.Name}, Surname: {baby2.Surname}, BirthDate: {baby2.DateBirthTime}");
     }
 }
