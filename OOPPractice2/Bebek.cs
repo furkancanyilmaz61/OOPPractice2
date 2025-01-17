@@ -1,24 +1,24 @@
 ﻿using System;
 
-class Bebek
+class Baby
 {
-    public string Ad { get; set; }
-    public string Soyad { get; set; }
-    public int DogumTarihi { get; set; }
+    public string Name { get; set; }
+    public string Surname { get; set; }
+    public int DateBirthTime { get; set; }
 
     // Default Constructor
-    public Bebek()
+    public Baby()
     {
         Console.WriteLine("Ingaaaa");
-        DogumTarihi = DateTime.Now.Year; // Anlık yılı ata
+        DogumTarihi = DateTime.Now.Year; 
     }
 
-    // Parametreli Constructor
-    public Bebek(string ad, string soyad)
+    // Parameters Constructor
+    public Baby(string name, string surname)
     {
         Console.WriteLine("Ingaaaa");
-        Ad = ad;
-        Soyad = soyad;
-        DogumTarihi = DateTime.Now.Year; // Anlık yılı ata
+        Name = name;
+        Surname = surname;
+        DateBirthTime = DateTime.Now.Year; 
     }
 }
